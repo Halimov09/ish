@@ -1,8 +1,45 @@
 .talent{
     .container{
-        background-image: url("/img/find-talent\ \(1\).webp");
+        background-image: url("../img/find-talent\ \(1\).webp");
         background-size: cover;
         height: 600px;
         border-radius: 10px;
+        h3{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 60px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 20px;
+        }
+        .row{
+            .col-12{
+                background-color: transparent;
+                div{
+                    background-color: rgb(5, 170, 5);
+                    border-radius: 10px;
+                    a{
+                        text-decoration: none;
+                        font-size: 33px;
+                        font-weight: 600;
+                    }
+                    .talent{
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .talent{
+        .container{
+            background-image: url("/img/find-talent-mobile.webp");
+            background-size: cover;
+            height: 920px !important;
+        }
     }
 }

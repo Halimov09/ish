@@ -423,9 +423,49 @@ template {
 }
 
 .talent .container {
-  background-image: url("/img/find-talent (1).webp");
+  background-image: url("../img/find-talent (1).webp");
   background-size: cover;
   height: 600px;
   border-radius: 10px;
+}
+
+.talent .container h3 {
+  font-size: 30px;
+}
+
+.talent .container h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.talent .container p {
+  font-size: 20px;
+}
+
+.talent .container .row .col-12 {
+  background-color: transparent;
+}
+
+.talent .container .row .col-12 div {
+  background-color: #05aa05;
+  border-radius: 10px;
+}
+
+.talent .container .row .col-12 div a {
+  text-decoration: none;
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.talent .container .row .col-12 div .talent {
+  font-size: 17px;
+}
+
+@media (max-width: 992px) {
+  .talent .container {
+    background-image: url("/img/find-talent-mobile.webp");
+    background-size: cover;
+    height: 920px !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
