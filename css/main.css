@@ -474,4 +474,27 @@ template {
     width: 200px !important;
   }
 }
+
+.buisiness__col1 {
+  border-radius: 15px;
+}
+
+.buisiness__col1 .busines__h2 {
+  font-weight: 700;
+}
+
+.busines__col2 .col2__div {
+  background-color: #14a800 !important;
+  border-radius: 15px !important;
+}
+
+.busines__col2 .col2__h3 {
+  font-weight: 600;
+  font-size: 30px !important;
+  padding-top: 205px !important;
+}
+
+.busines__col2 p {
+  padding-left: 35px !important;
+}
 /*# sourceMappingURL=main.css.map */
