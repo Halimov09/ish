@@ -465,7 +465,13 @@ template {
   .talent .container {
     background-image: url("/img/find-talent-mobile.webp");
     background-size: cover;
-    height: 920px !important;
+    height: 970px !important;
+  }
+  .top-work {
+    font-size: 45px !important;
+  }
+  .ukrain-img {
+    width: 200px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
