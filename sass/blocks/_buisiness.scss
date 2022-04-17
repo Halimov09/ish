@@ -1,4 +1,12 @@
-
+.busines__row{ 
+    z-index: -2;
+    img{
+        z-index: 10 !important;
+        height: 680px !important;
+        top: -40px;
+        left: 495px;
+    }
+}
 .buisiness__col1{
     border-radius: 15px;
     .busines__h2{
