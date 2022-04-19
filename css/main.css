@@ -550,6 +550,14 @@ template {
   }
 }
 
+.work .container .row .col2 {
+  background-color: #1f57c3;
+}
+
+.work .container .row .col2 p {
+  font-size: 25px;
+}
+
 .footer {
   background-color: #162b45;
 }
