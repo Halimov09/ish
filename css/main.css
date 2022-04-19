@@ -550,11 +550,11 @@ template {
   }
 }
 
-.work .container .row .col2 {
+.work .container .row .col2 .div {
   background-color: #1f57c3;
 }
 
-.work .container .row .col2 p {
+.work .container .row .col2 .div p {
   font-size: 25px;
 }
 
