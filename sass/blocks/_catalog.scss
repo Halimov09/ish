@@ -1,0 +1,38 @@
+.catalog__div{
+    a{
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+}
+
+.catalog__col1{
+    a{
+        opacity: 0.4;
+        font-size: 38px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+    .bira{
+        color: #14a800;
+        opacity: 0.8 !important;
+    }
+    a:hover{
+        color: #14a800 !important;
+        opacity: 1 !important;
+    }
+}
+
+.catalog__col2{
+    a{
+        font-size: 30px;
+        padding-top: 10px;
+        font-weight: 600;
+        opacity: 0.7;
+    }
+    a:hover{
+        color: #14a800;
+
+    }
+}
+

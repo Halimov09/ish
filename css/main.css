@@ -559,7 +559,7 @@ template {
 }
 
 .footer {
-  background-color: #162b45;
+  background-color: #001e00;
 }
 
 .footer .container .row .footer__row--link P {
@@ -567,7 +567,7 @@ template {
 }
 
 .footer .container .row .footer__row--link .input input {
-  background-color: #092742;
+  background-color: #0c3d0c;
   color: white;
   height: 50px !important;
 }
@@ -578,7 +578,7 @@ template {
 }
 
 .footer .footer__down {
-  background-color: #08223a;
+  background-color: #001e00;
 }
 
 .footer .footer__down .container h6 span {
@@ -593,5 +593,39 @@ template {
 
 .footer__row--link a:hover {
   color: #fe5c24 !important;
+}
+
+.catalog__div a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+
+.catalog__col1 a {
+  opacity: 0.4;
+  font-size: 38px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.catalog__col1 .bira {
+  color: #14a800;
+  opacity: 0.8 !important;
+}
+
+.catalog__col1 a:hover {
+  color: #14a800 !important;
+  opacity: 1 !important;
+}
+
+.catalog__col2 a {
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.catalog__col2 a:hover {
+  color: #14a800;
 }
 /*# sourceMappingURL=main.css.map */
